@@ -12,9 +12,9 @@ pip3 install -r requirements.txt
 
 ## MOT17/20 dataset
 
-Download the MOT17 dataset in the link https://motchallenge.net/data/MOT17/
+Download the MOT17 dataset from the link https://motchallenge.net/data/MOT17/
 
-Download the MOT20 dataset in the link https://motchallenge.net/data/MOT20/
+Download the MOT20 dataset from the link https://motchallenge.net/data/MOT20/
 
 ## Usage (Take MOT17.zip as an example)
 
