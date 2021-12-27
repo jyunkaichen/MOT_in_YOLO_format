@@ -14,7 +14,7 @@ def convert_img(dir, dir_yolo):
 
             dataset_name = datasets.split('-')
 
-            if(dataset_name[2] != 'DPM'):
+            if(dataset_name[0] == 'MOT17' && dataset_name[2] != 'DPM'):
                 continue
 
             img_dir = os.listdir('{}/{}/{}/img1'.format(dir, t, datasets))
@@ -38,7 +38,7 @@ def convert_label(dir, dir_yolo):
 
         dataset_name = datasets.split('-')
 
-        if(dataset_name[2] != 'DPM'):
+        if(dataset_name[0] == 'MOT17' && dataset_name[2] != 'DPM'):
             continue
 
         label_file = open('{}/train/{}/gt/gt.txt'.format(dir, datasets), 'r')
